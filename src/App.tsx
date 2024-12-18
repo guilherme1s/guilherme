@@ -1,3 +1,4 @@
+import { Header } from "./components/Header/Header";
 import { GlobalStyles } from "./styles/Global.styles"
 
 export function App() {
@@ -5,8 +6,8 @@ export function App() {
   return (
     <>
       <GlobalStyles />
-      
-      <h1>Hello World</h1>
+
+      <Header />
     </>
   );
 }
