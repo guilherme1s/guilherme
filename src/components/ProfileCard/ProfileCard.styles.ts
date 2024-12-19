@@ -5,7 +5,7 @@ export const ProfileCardWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 0 12px;
-    margin: 50px 0;
+    margin: 50px 0 100px; 
     gap: 6px;
     color: var(--gray-300);
 `;
