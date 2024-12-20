@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
 export const MainContentWrapper = styled.div `
-    padding: 50px 0;
-` 
+    max-width: 950px;
+    margin: 0 auto;
+`; 

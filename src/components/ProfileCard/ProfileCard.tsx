@@ -9,7 +9,7 @@ export function ProfileCard() {
 
             <S.Paragraph>Olá, sou</S.Paragraph>
             <S.Paragraph><span>Guilherme Evangelista</span></S.Paragraph>
-            <S.Paragraph>Desenvolvedor Front-End</S.Paragraph>
+            <S.Paragraph>Desenvolvedor FullStack</S.Paragraph>
             <S.Paragraph>Engenheiro da Computação</S.Paragraph>
 
             <S.HorizontalLine />

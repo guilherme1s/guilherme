@@ -26,13 +26,13 @@ export const GlobalStyles = createGlobalStyle `
     }
 
     body {
-        background: var(--gray-900);
+        background: var(--gray-800);
         color: var(--gray-300);
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, textarea, button {
-        font-family: "Roboto", sans-serif;
+        font-family: "DM Sans", serif;
         font-weight: 400;
         font-size: 1rem;
     }

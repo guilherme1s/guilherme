@@ -7,7 +7,7 @@ import * as S from "./Header.styles";
 export function Header() {
     return(
         <S.ContactsContainer>
-            <a href="2000guilherme.silva@gmail.com">
+            <a href="mailto:2000guilherme.silva@gmail.com">
                 <EmailIcon /> 2000guilherme.silva@gmail.com
             </a>
 
