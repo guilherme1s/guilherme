@@ -162,7 +162,7 @@ To suppress this warning, you need to explicitly provide the \`palette.${o}Chann
     @media (min-width: 1024px) {
         max-width: calc(100% - 10px);
     }
-`;function Yv(){return X.jsxs(Kv,{children:[X.jsx(Gv,{src:Hv,alt:"Self Image"}),X.jsx(cl,{children:"Olá, sou"}),X.jsx(cl,{children:X.jsx("span",{children:"Guilherme Evangelista"})}),X.jsx(cl,{children:"Desenvolvedor FullStack"}),X.jsx(cl,{children:"Engenheiro da Computação"}),X.jsx(Qv,{})]})}const Xv=Uv`
+`;function Yv(){return X.jsxs(Kv,{children:[X.jsx(Gv,{src:Hv,alt:"Self Image"}),X.jsx(cl,{children:"Olá, sou"}),X.jsx(cl,{children:X.jsx("span",{children:"Guilherme Evangelista"})}),X.jsx(cl,{children:"Desenvolvedor Front-End"}),X.jsx(cl,{children:"Engenheiro da Computação"}),X.jsx(Qv,{})]})}const Xv=Uv`
     :root {
         --white: #FFFFFF;
         --gray-100: #e1e1e6;
@@ -234,7 +234,7 @@ To suppress this warning, you need to explicitly provide the \`palette.${o}Chann
     @media (min-width: 1024px) {
         font-size: 1.25rem;
     }
-`;function Jv(){return X.jsxs(qv,{children:[X.jsx(Zv,{children:"Sobre mim"}),X.jsxs(qs,{children:["Formado em ",X.jsx("span",{children:"Engenharia da Computação"}),", sou ",X.jsx("span",{children:"Desenvolvedor Fullstack"})," com experiência em tecnologias como: ",X.jsx("span",{children:"HTML, CSS, JavaScript, TypeScript, React e Next.js"}),". Minha paixão é criar interfaces eficientes e funcionais, focando em uma experiência de usuário excepcional."]}),X.jsxs(qs,{children:["Ao longo da minha jornada, participei de ",X.jsx("span",{children:"projetos acadêmicos e extracurriculares"})," que envolvem desde o planejamento até a execução, utilizando metodologias ágeis e boas práticas de desenvolvimento. Transformo desafios complexos em soluções simples, priorizando qualidade, usabilidade e desempenho."]}),X.jsx(qs,{children:"Meu objetivo é contribuir para o sucesso de projetos e organizações, aplicando minha criatividade, ética e trabalho em equipe para entregar resultados de alta qualidade."})]})}const eS=Ki(X.jsx("path",{d:"M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"}),"KeyboardArrowUp"),tS=Ki(X.jsx("path",{d:"M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"}),"KeyboardArrowDown"),nS=ut.div`
+`;function Jv(){return X.jsxs(qv,{children:[X.jsx(Zv,{children:"Sobre mim"}),X.jsxs(qs,{children:["Formado em ",X.jsx("span",{children:"Engenharia da Computação"}),", sou ",X.jsx("span",{children:"Desenvolvedor Front-End"})," com experiência em tecnologias como: ",X.jsx("span",{children:"HTML, CSS, JavaScript, TypeScript, React e Next.js"}),". Minha paixão é criar interfaces eficientes e funcionais, focando em uma experiência de usuário excepcional."]}),X.jsxs(qs,{children:["Ao longo da minha jornada, participei de ",X.jsx("span",{children:"projetos acadêmicos e extracurriculares"})," que envolvem desde o planejamento até a execução, utilizando metodologias ágeis e boas práticas de desenvolvimento. Transformo desafios complexos em soluções simples, priorizando qualidade, usabilidade e desempenho."]}),X.jsx(qs,{children:"Meu objetivo é contribuir para o sucesso de projetos e organizações, aplicando minha criatividade, ética e trabalho em equipe para entregar resultados de alta qualidade."})]})}const eS=Ki(X.jsx("path",{d:"M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"}),"KeyboardArrowUp"),tS=Ki(X.jsx("path",{d:"M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"}),"KeyboardArrowDown"),nS=ut.div`
 `,rS=ut.h2`
     display: flex;
     align-items: center;
