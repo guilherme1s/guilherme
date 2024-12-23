@@ -1,33 +1,20 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle `
-    :root {
-        --white: #FFFFFF;
-        --gray-100: #e1e1e6;
-        --gray-300: #c4c4cc;
-        --gray-400: #8d8d99;
-        --gray-600: #323269;
-        --gray-700: #29292e;
-        --gray-800: #202024;
-        --gray-900: #121214;
-
-        --blue-500: #06b6d4;
-    }
-
-    :focus {
-        outline: transparent;
-        box-shadow: 0 0 0 2px var(--green-500);
-    }
-
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
+    :focus {
+        outline: transparent;
+        box-shadow: 0 0 0 2px ${({ theme }) => theme.color["blue-500"]};
+    }
+
     body {
-        background: var(--gray-800);
-        color: var(--gray-300);
+        background: ${({ theme }) => theme.color["gray-800"]};
+        color: ${({ theme }) => theme.color["gray-300"]};
         -webkit-font-smoothing: antialiased;
     }
 

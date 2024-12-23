@@ -7,7 +7,7 @@ export const ProfileCardWrapper = styled.div`
     padding: 0 0.75rem;
     margin: 6.25rem 0 0; 
     gap: 0.375rem;
-    color: var(--gray-300);
+    color: ${({ theme }) => theme.color["gray-300"]};
 `;
 
 export const ProfileImage = styled.img`
@@ -28,10 +28,10 @@ export const ProfileImage = styled.img`
 `;
 
 export const Paragraph = styled.p`
-    color: var(--gray-300);
+    color: ${({ theme }) => theme.color["gray-300"]};
 
     span {
-        color: var(--blue-500);
+        color: ${({ theme }) => theme.color["blue-500"]};
         font-weight: 400;
     }
 
@@ -51,7 +51,7 @@ export const HorizontalLine = styled.hr`
     background: linear-gradient(
         to right,
         transparent,
-        var(--blue-500),
+        ${({ theme }) => theme.color["blue-500"]},
         transparent
     );
     margin-top: 2.5rem;

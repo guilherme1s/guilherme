@@ -13,19 +13,19 @@ export const ContactsContainer = styled.div `
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        color: var(--gray-300);
+        color: ${({ theme }) => theme.color["gray-300"]};
     
         &:hover {
-            color: var(--blue-500);
+            color: ${({ theme }) => theme.color["blue-500"]};
 
             svg {
-                color: var(--blue-500);
+                color: ${({ theme }) => theme.color["blue-500"]};
             }
         }
     }
 
     svg {
-        color: var(--gray-300);
+        color: ${({ theme }) => theme.color["gray-300"]};
         font-size: 0.875rem;
     }
 
@@ -44,8 +44,8 @@ export const SocialMedia = styled.div `
    gap: 0.5rem;
 
    span {
-    color: var(--white);
-   }
+        color: ${({ theme }) => theme.color["gray-300"]};
+    }
 
    @media (min-width: 668px){
        gap: 0.75rem;

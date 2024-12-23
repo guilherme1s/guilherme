@@ -44,7 +44,7 @@ export const Content = styled.div `
     }
 
     span {
-        color: var(--blue-500);
+        color: ${({ theme }) => theme.color["blue-500"]};
     }
 
     @media (min-width: 668px){
